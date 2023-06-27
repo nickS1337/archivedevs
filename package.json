@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/nickS1337/nicarchives/issues"
   },
-  "homepage": "https://github.com/nickS1337/nicarchives#readme"
+  "homepage": "https://github.com/nickS1337/nicarchives#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
