@@ -1,2 +1,3 @@
-website_builder/
-node_modules/
+.website_builder/
+.node_modules/
+.fractal_designs/

@@ -350,6 +350,12 @@ window.onload = ()=>{
 
     //sectionTracker();
 
+    var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var time_now = new Date();
+
+    //Ensure #divider-month shows the correct date:
+    $("#divider-month").html(months[time_now.getMonth()] + " " + time_now.getFullYear());
+
 }
 
 document.onmouseover = (e)=>{
