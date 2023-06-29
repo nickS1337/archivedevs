@@ -1,5 +1,5 @@
 var express = require("express");
-var port = 27015 || process.env.PORT;
+var port = process.env.PORT || 27015;
 var app = express();
 var http = require("http").Server(app);
 
